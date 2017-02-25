@@ -1,0 +1,39 @@
+# This file created by conda-build 2.0.8
+# meta.yaml template originally from:
+# /Users/ilan/anaconda/packages/nbformat, last modified Fri Dec  2 11:23:48 2016
+# ------------------------------------------------
+
+package:
+    name: nbformat
+    version: 4.2.0
+source:
+    fn: nbformat-4.2.0.tar.gz
+    md5: f90f24d317b651226a6b547fa69d8da4
+    url: https://pypi.python.org/packages/81/63/5cb425bfa9cff370a740c8d6fd26f17c7db152c1877aca3e7671ecfa8ce3/nbformat-4.2.0.tar.gz
+build: {}
+requirements:
+    build:
+        - python
+    run:
+        - python
+        - ipython_genutils
+        - traitlets >=4.1
+        - jsonschema >=2.4,!=2.5.0
+        - jupyter_core
+test:
+    commands:
+        - jupyter-trust -h
+    imports:
+        - nbformat
+about:
+    description: 'nbformat contains the reference implementation of the Jupyter Notebook
+
+        format, and Python APIs for working with notebooks.
+
+        '
+    dev_url: https://github.com/jupyter/nbformat
+    doc_url: http://nbformat.readthedocs.org
+    home: http://jupyter.org
+    license: BSD
+    license_file: COPYING.md
+    summary: The reference implementation of the Jupyter Notebook format

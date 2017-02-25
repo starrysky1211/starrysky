@@ -1,0 +1,29 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python2.7/site-packages/_scandir.so",
+      "path_type": "hardlink",
+      "sha256": "da9cbc82aea53d5dc9701526ac188cddf2c99abb56aa7bb270a94dbffbc26859",
+      "size_in_bytes": 23544
+    },
+    {
+      "_path": "lib/python2.7/site-packages/scandir-1.4-py2.7.egg-info",
+      "path_type": "hardlink",
+      "sha256": "8ab145f9c926a2a7a707a4cd4b1752d3e12d8ef92fe4a1f756387155bf18a445",
+      "size_in_bytes": 1618
+    },
+    {
+      "_path": "lib/python2.7/site-packages/scandir.py",
+      "path_type": "hardlink",
+      "sha256": "c2e247821b7794146cdb5da021c3c3532f9c8b5cb37b07568d3aecf16a6dc398",
+      "size_in_bytes": 23805
+    },
+    {
+      "_path": "lib/python2.7/site-packages/scandir.pyc",
+      "path_type": "hardlink",
+      "sha256": "1721d873f8df83a424bd1e25b143608a58f47abbad62a8fe58c1b114134ab4f9",
+      "size_in_bytes": 18106
+    }
+  ],
+  "paths_version": 1
+}

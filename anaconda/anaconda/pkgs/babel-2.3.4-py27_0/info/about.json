@@ -1,0 +1,8 @@
+{
+  "description": "Babel is an integrated collection of utilities that assist in\ninternationalizing and localizing Python applications, with an emphasis\non web-base applications.\n", 
+  "dev_url": "https://github.com/python-babel/babel", 
+  "doc_url": "http://babel.pocoo.org/en/latest/#user-documentation", 
+  "home": "http://babel.pocoo.org/", 
+  "license": "BSD", 
+  "summary": "Utilities to internationalize and localize Python applications"
+}

@@ -1,0 +1,8 @@
+{
+  "description": "jupyter_client contains the reference implementation of the Jupyter\nprotocol. It also provides client and kernel management APIs for working\nwith kernels.\n", 
+  "dev_url": "https://github.com/jupyter/jupyter_client", 
+  "doc_url": "http://jupyter-client.readthedocs.org/", 
+  "home": "http://jupyter.org", 
+  "license": "BSD", 
+  "summary": "Jupyter protocol implementation and client libraries"
+}

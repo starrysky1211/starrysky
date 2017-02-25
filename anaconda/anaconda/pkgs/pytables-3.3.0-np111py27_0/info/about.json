@@ -1,0 +1,8 @@
+{
+  "description": "PyTables is a package for managing hierarchical datasets and designed to\nefficiently and easily cope with extremely large amounts of data. PyTables\nis built on top of the HDF5 library, using the Python language and the\nNumPy package.\n", 
+  "dev_url": "https://github.com/PyTables", 
+  "doc_url": "http://www.pytables.org/", 
+  "home": "http://www.pytables.org", 
+  "license": "BSD", 
+  "summary": "Manage hierarchical datasets to cope with large amounts of data"
+}

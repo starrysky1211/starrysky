@@ -1,0 +1,14 @@
+prefix=/Users/starrysky/starrysky/anaconda/anaconda
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include/qt
+
+
+Name: Qt5 Script
+Description: Qt Script module
+Version: 5.6.2
+Libs: -L${libdir} -lQt5Script 
+Libs.private: -L/Users/starrysky/starrysky/anaconda/anaconda/lib -lQt5Core -framework DiskArbitration -framework IOKit -L/Users/starrysky/starrysky/anaconda/anaconda/lib -framework CoreFoundation  
+Cflags: -I${includedir}/QtScript -I${includedir}
+Requires: Qt5Core
+

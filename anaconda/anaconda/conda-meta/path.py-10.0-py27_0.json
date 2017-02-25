@@ -1,0 +1,26 @@
+{
+  "arch": "x86_64", 
+  "build": "py27_0", 
+  "build_number": 0, 
+  "depends": [
+    "python 2.7*"
+  ], 
+  "files": [
+    "lib/python2.7/site-packages/path.py", 
+    "lib/python2.7/site-packages/path.pyc", 
+    "lib/python2.7/site-packages/test_path.py", 
+    "lib/python2.7/site-packages/test_path.pyc"
+  ], 
+  "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64", 
+  "license": "MIT", 
+  "link": {
+    "source": "/Users/starrysky/starrysky/anaconda/anaconda/pkgs/path.py-10.0-py27_0", 
+    "type": "hard-link"
+  }, 
+  "md5": "4797e11ef8ff01f7e976cd4517a7b8cc", 
+  "name": "path.py", 
+  "platform": "osx", 
+  "subdir": "osx-64", 
+  "url": "https://repo.continuum.io/pkgs/free/osx-64/path.py-10.0-py27_0.tar.bz2", 
+  "version": "10.0"
+}

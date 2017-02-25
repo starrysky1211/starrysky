@@ -1,0 +1,8 @@
+{
+  "description": "Mistune is a pure Python markdown parser inspired by marked.\n", 
+  "dev_url": "https://github.com/lepture/mistune", 
+  "doc_url": "http://mistune.readthedocs.org/", 
+  "home": "https://github.com/lepture/mistune", 
+  "license": "BSD", 
+  "summary": "The fastest markdown parser in pure Python with renderer feature"
+}

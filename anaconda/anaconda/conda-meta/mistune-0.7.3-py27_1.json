@@ -1,0 +1,28 @@
+{
+  "arch": "x86_64", 
+  "build": "py27_1", 
+  "build_number": 1, 
+  "depends": [
+    "python 2.7*"
+  ], 
+  "files": [
+    "lib/python2.7/site-packages/mistune-0.7.3-py2.7.egg-info/PKG-INFO", 
+    "lib/python2.7/site-packages/mistune-0.7.3-py2.7.egg-info/SOURCES.txt", 
+    "lib/python2.7/site-packages/mistune-0.7.3-py2.7.egg-info/dependency_links.txt", 
+    "lib/python2.7/site-packages/mistune-0.7.3-py2.7.egg-info/not-zip-safe", 
+    "lib/python2.7/site-packages/mistune-0.7.3-py2.7.egg-info/top_level.txt", 
+    "lib/python2.7/site-packages/mistune.so"
+  ], 
+  "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64", 
+  "license": "BSD", 
+  "link": {
+    "source": "/Users/starrysky/starrysky/anaconda/anaconda/pkgs/mistune-0.7.3-py27_1", 
+    "type": "hard-link"
+  }, 
+  "md5": "d50c363ddef685843cb2663adc81eb0c", 
+  "name": "mistune", 
+  "platform": "osx", 
+  "subdir": "osx-64", 
+  "url": "https://repo.continuum.io/pkgs/free/osx-64/mistune-0.7.3-py27_1.tar.bz2", 
+  "version": "0.7.3"
+}

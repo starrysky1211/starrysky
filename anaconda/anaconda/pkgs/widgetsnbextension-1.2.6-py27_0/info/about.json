@@ -1,0 +1,6 @@
+{
+  "home": "http://ipython.org", 
+  "license": "BSD 3-clause", 
+  "license_family": "BSD", 
+  "summary": "IPython HTML widgets for Jupyter"
+}

@@ -1,0 +1,15 @@
+{
+  "arch": "x86_64", 
+  "build": "py27_0", 
+  "build_number": 0, 
+  "depends": [
+    "python 2.7*", 
+    "redis"
+  ], 
+  "license": "MIT (https://github.com/andymccurdy/redis-py/blob/master/LICENSE)", 
+  "license_family": "MIT", 
+  "name": "redis-py", 
+  "platform": "osx", 
+  "subdir": "osx-64", 
+  "version": "2.10.5"
+}

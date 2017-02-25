@@ -1,0 +1,15 @@
+{
+  "arch": "x86_64", 
+  "build": "np111py27_1", 
+  "build_number": 1, 
+  "depends": [
+    "mkl 2017.0.1", 
+    "numpy 1.11*", 
+    "python 2.7*"
+  ], 
+  "license": "BSD", 
+  "name": "scipy", 
+  "platform": "osx", 
+  "subdir": "osx-64", 
+  "version": "0.18.1"
+}

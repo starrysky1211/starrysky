@@ -1,0 +1,39 @@
+# This file created by conda-build 1.20.3+48.g09ddcfe
+# meta.yaml template originally from:
+# /Users/ilan/anaconda/packages/jedi, last modified Sat Jun  4 21:14:26 2016
+# ------------------------------------------------
+
+package:
+    name: jedi
+    version: 0.9.0
+source:
+    fn: jedi-0.9.0.tar.gz
+    md5: 2fee93d273622527ef8c97ac736e92bd
+    url: https://pypi.python.org/packages/source/j/jedi/jedi-0.9.0.tar.gz
+build:
+    number: '1'
+requirements:
+    build:
+        - python
+    run:
+        - python
+test:
+    imports:
+        - jedi
+        - jedi.api
+        - jedi.evaluate
+        - jedi.evaluate.compiled
+        - jedi.parser
+about:
+    description: 'Jedi is a static analysis and autocompletion tool for Python that
+        can be
+
+        used in IDEs/editors.
+
+        '
+    dev_url: https://github.com/davidhalter/jedi
+    doc_url: http://jedi.jedidjah.ch/
+    home: http://jedi.jedidjah.ch/
+    license: MIT
+    license_file: LICENSE.txt
+    summary: Autocompletion and static analysis library for Python

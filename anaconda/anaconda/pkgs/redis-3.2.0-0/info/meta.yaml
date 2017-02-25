@@ -1,0 +1,34 @@
+# This file created by conda-build 1.20.3+48.g09ddcfe
+# meta.yaml template originally from:
+# /Users/ilan/anaconda/packages/redis, last modified Sun Jun  5 21:47:39 2016
+# ------------------------------------------------
+
+package:
+    name: redis
+    version: 3.2.0
+source:
+    fn: redis-3.2.0.tar.gz
+    md5: 9ec99ff912f35946fdb56fe273140483
+    url: http://download.redis.io/releases/redis-3.2.0.tar.gz
+test:
+    commands:
+        - redis-cli --version
+        - redis-server --version
+about:
+    description: 'Redis is an open source (BSD licensed), in-memory data structure
+        store,
+
+        used as database, cache and message broker. It supports data structures
+
+        such as strings, hashes, lists, sets, sorted sets with range queries,
+
+        bitmaps, hyperloglogs and geospatial indexes with radius queries.
+
+        '
+    dev_url: https://github.com/antirez/redis
+    doc_url: http://redis.io/documentation
+    home: http://redis.io/download/
+    license: 3-clause BSD
+    license_family: BSD
+    license_file: COPYING
+    summary: Advanced key-value cache and store

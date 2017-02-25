@@ -1,0 +1,27 @@
+{
+  "arch": "x86_64", 
+  "build": "0", 
+  "build_number": 0, 
+  "depends": [], 
+  "files": [
+    "bin/redis-benchmark", 
+    "bin/redis-check-aof", 
+    "bin/redis-check-rdb", 
+    "bin/redis-cli", 
+    "bin/redis-sentinel", 
+    "bin/redis-server"
+  ], 
+  "installed_by": "Anaconda2-4.3.0-MacOSX-x86_64", 
+  "license": "3-clause BSD", 
+  "license_family": "BSD", 
+  "link": {
+    "source": "/Users/starrysky/starrysky/anaconda/anaconda/pkgs/redis-3.2.0-0", 
+    "type": "hard-link"
+  }, 
+  "md5": "c5e7cd27a1d89282cc83115adbd1e9b9", 
+  "name": "redis", 
+  "platform": "osx", 
+  "subdir": "osx-64", 
+  "url": "https://repo.continuum.io/pkgs/free/osx-64/redis-3.2.0-0.tar.bz2", 
+  "version": "3.2.0"
+}

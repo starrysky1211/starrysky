@@ -1,0 +1,8 @@
+{
+  "description": "In a nutshell, PLY is nothing more than a straightforward lex/yacc\nimplementation.\n", 
+  "dev_url": "https://github.com/dabeaz/ply", 
+  "doc_url": "http://www.dabeaz.com/ply", 
+  "home": "http://www.dabeaz.com/ply/", 
+  "license": "BSD", 
+  "summary": "Implementation of Lex and Yacc"
+}

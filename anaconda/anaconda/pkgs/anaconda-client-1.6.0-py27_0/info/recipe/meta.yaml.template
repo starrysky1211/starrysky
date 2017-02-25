@@ -1,0 +1,50 @@
+package:
+  name: anaconda-client
+  version: 1.6.0
+
+source:
+  git_url: https://github.com/Anaconda-Server/anaconda-client.git
+  git_tag: 1.6.0
+
+build:
+  entry_points:
+    - anaconda = binstar_client.scripts.cli:main
+
+requirements:
+  build:
+    - python
+    - setuptools
+    - clyent
+    - requests
+    - pyyaml
+    - python-dateutil
+    - pytz
+  run:
+    - python
+    - setuptools
+    - clyent
+    - requests >=2.9.1
+    - pyyaml
+    - python-dateutil
+    - pytz
+
+test:
+  requires:
+    - conda
+  commands:
+    - anaconda -h
+    - anaconda --version
+  imports:
+    - binstar_client
+    - binstar_client.scripts.cli
+
+about:
+  home: http://anaconda.org
+  license: BSD
+  license_file: LICENSE.md
+  summary: anaconda.org command line client library
+  description: |
+    Anaconda Client is a command line client that provides an
+    interface to Anaconda cloud.
+  doc_url: https://anaconda.org/anaconda/anaconda-client
+  dev_url: https://github.com/Anaconda-Server/anaconda-client

@@ -1,0 +1,52 @@
+# This file created by conda-build 1.20.3+40.g9aca3db
+# meta.yaml template originally from:
+# /Users/ilan/anaconda/packages/scikit-image, last modified Mon May 30 21:50:22 2016
+# ------------------------------------------------
+
+package:
+    name: scikit-image
+    version: 0.12.3
+source:
+    fn: scikit-image-0.12.3.tar.gz
+    md5: 04ea833383e0b6ad5f65da21292c25e1
+    url: https://pypi.python.org/packages/source/s/scikit-image/scikit-image-0.12.3.tar.gz
+build:
+    entry_points:
+        - skivi = skimage.scripts.skivi:main
+    number: '1'
+requirements:
+    build:
+        - python
+        - setuptools
+        - cython
+        - numpy x.x
+        - scipy
+        - six
+        - matplotlib
+        - networkx
+        - pillow
+    run:
+        - python
+        - numpy x.x
+        - scipy
+        - six >=1.7.3
+        - matplotlib >=1.3.1
+        - networkx >=1.8
+        - pillow >=2.1
+test:
+    imports:
+        - skimage
+about:
+    description: 'The scikit-image SciKit (toolkit for SciPy) extends scipy.ndimage
+        to
+
+        provide a versatile set of image processing routines.
+
+        '
+    dev_url: https://github.com/scikit-image/scikit-image
+    doc_url: http://scikit-image.org/docs/dev/
+    home: http://scikit-image.org/
+    license: 3-clause BSD
+    license_family: BSD
+    license_file: LICENSE.txt
+    summary: Image processing routines for SciPy

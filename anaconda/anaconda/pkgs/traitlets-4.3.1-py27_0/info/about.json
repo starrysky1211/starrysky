@@ -1,0 +1,8 @@
+{
+  "description": "Traitlets is a framework that lets Python classes have attributes with\ntype checking, dynamically calculated default values, and \"on change\"\ncallbacks.\n", 
+  "dev_url": "https://github.com/ipython/traitlets", 
+  "doc_url": "http://traitlets.readthedocs.org/en/stable/", 
+  "home": "https://github.com/ipython/traitlets", 
+  "license": "BSD", 
+  "summary": "Configuration system for Python applications"
+}

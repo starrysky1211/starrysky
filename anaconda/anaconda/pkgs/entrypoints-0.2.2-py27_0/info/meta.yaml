@@ -1,0 +1,25 @@
+# This file created by conda-build 1.20.3
+# meta.yaml template originally from:
+# /Users/ilan/anaconda/packages/entrypoints, last modified Tue Jun 21 15:58:29 2016
+# ------------------------------------------------
+
+package:
+    name: entrypoints
+    version: 0.2.2
+source:
+    git_rev: 0.2.2
+    git_url: https://github.com/takluyver/entrypoints.git
+requirements:
+    build:
+        - python
+        - configparser
+    run:
+        - python
+        - configparser
+test:
+    imports:
+        - entrypoints
+about:
+    home: https://github.com/takluyver/entrypoints
+    license: MIT
+    license_file: LICENSE

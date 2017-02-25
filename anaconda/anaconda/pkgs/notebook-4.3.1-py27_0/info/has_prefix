@@ -1,0 +1,3 @@
+/opt/anaconda1anaconda2anaconda3 text bin/jupyter-nbextension
+/opt/anaconda1anaconda2anaconda3 text bin/jupyter-notebook
+/opt/anaconda1anaconda2anaconda3 text bin/jupyter-serverextension

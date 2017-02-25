@@ -1,0 +1,32 @@
+# This file created by conda-build 2.0.8
+# meta.yaml template originally from:
+# /Users/ilan/anaconda/packages/ipykernel, last modified Thu Dec  1 13:34:27 2016
+# ------------------------------------------------
+
+package:
+    name: ipykernel
+    version: 4.5.2
+source:
+    fn: ipykernel-4.5.2.tar.gz
+    md5: 4048987076b85814202cd29b1dd3fc7b
+    url: https://pypi.python.org/packages/2d/1b/eee47b5cd8b2fcdde587cad1e8d3f7eae7bdfa1d36a94ad316fc5fbee833/ipykernel-4.5.2.tar.gz
+build: {}
+requirements:
+    build:
+        - python
+    run:
+        - python
+        - ipython >=4.0.0
+        - traitlets >=4.1.0
+        - jupyter_client
+        - tornado >=4.0
+test:
+    imports:
+        - ipykernel
+about:
+    dev_url: https://github.com/ipython/ipython
+    doc_url: http://ipython.readthedocs.org/
+    home: http://ipython.org
+    license: BSD
+    license_file: COPYING.md
+    summary: IPython Kernel for Jupyter

@@ -1,0 +1,9 @@
+{
+  "description": "The h5py package is a Pythonic interface to the HDF5 binary data format.\nIt lets you store huge amounts of numerical data, and easily manipulate\nthat data from NumPy. For example, you can slice into multi-terabyte\ndatasets stored on disk, as if they were real NumPy arrays. Thousands of\ndatasets can be stored in a single file, categorized and tagged however\nyou want.\n", 
+  "dev_url": "https://github.com/h5py/h5py", 
+  "doc_url": "http://docs.h5py.org", 
+  "home": "http://www.h5py.org/", 
+  "license": "3-clause BSD", 
+  "license_family": "BSD", 
+  "summary": "Pythonic interface to the HDF5 binary data format"
+}

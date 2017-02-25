@@ -1,0 +1,16 @@
+{
+  "arch": "x86_64", 
+  "build": "py27_0", 
+  "build_number": 0, 
+  "depends": [
+    "python 2.7*"
+  ], 
+  "license": "BSD", 
+  "name": "futures", 
+  "platform": "osx", 
+  "requires": [
+    "python 2.7"
+  ], 
+  "subdir": "osx-64", 
+  "version": "3.0.5"
+}

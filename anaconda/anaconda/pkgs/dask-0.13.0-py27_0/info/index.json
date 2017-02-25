@@ -1,0 +1,20 @@
+{
+  "arch": "x86_64", 
+  "build": "py27_0", 
+  "build_number": 0, 
+  "depends": [
+    "bokeh", 
+    "chest", 
+    "cloudpickle >=0.2.1", 
+    "numpy", 
+    "pandas >=0.18.0", 
+    "partd >=0.3.6", 
+    "python 2.7*", 
+    "toolz >=0.7.2"
+  ], 
+  "license": "BSD", 
+  "name": "dask", 
+  "platform": "osx", 
+  "subdir": "osx-64", 
+  "version": "0.13.0"
+}

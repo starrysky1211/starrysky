@@ -1,0 +1,8 @@
+{
+  "description": "A terminal-based console frontend for Jupyter kernels.\n", 
+  "dev_url": "https://github.com/jupyter/jupyter_console", 
+  "doc_url": "http://jupyter-console.readthedocs.org/", 
+  "home": "http://jupyter.org", 
+  "license": "BSD", 
+  "summary": "Jupyter terminal console"
+}
